@@ -117,7 +117,7 @@ namespace Timbrado.CFDIS.CartaPorte._30
 			#region Autotransporte
 
 			CartaPorteMercanciasAutotransporte _autotransporte = new CartaPorteMercanciasAutotransporte();
-			_autotransporte.PermSCT = "TPAF01";
+			_autotransporte.PermSCT = "XXXXXX";
 			_autotransporte.NumPermisoSCT = "NA";
 
 			// identificacion vehicular
@@ -125,17 +125,17 @@ namespace Timbrado.CFDIS.CartaPorte._30
 				new CartaPorteMercanciasAutotransporteIdentificacionVehicular();
 
 			_identificacion.ConfigVehicular = "C2";
-			_identificacion.PlacaVM = "XY2975A";
+			_identificacion.PlacaVM = "XXXXXXX";
 			_identificacion.AnioModeloVM = 2016;
 			_identificacion.PesoBrutoVehicular = (decimal)3.50; //expresado en toneladas
 
 			// seguros
 			CartaPorteMercanciasAutotransporteSeguros _seguros = new CartaPorteMercanciasAutotransporteSeguros();
 			_seguros.AseguraRespCivil = "QUALITAS COMPAÑIA DE SEGUROS, S.A. DE C.V.";
-			_seguros.PolizaRespCivil = "2020020432";
+			_seguros.PolizaRespCivil = "0000000000";
 			
 			_seguros.AseguraCarga = "QUALITAS COMPAÑIA DE SEGUROS, S.A. DE C.V.";
-			_seguros.PolizaCarga = "2020020432";
+			_seguros.PolizaCarga = "0000000000";
 
 			// seguros -> Poliza de medio ambiente solo si see transporta material peligroso
 			//_seguros.AseguraMedAmbiente = "QUALITAS COMPAÑIA DE SEGUROS, S.A. DE C.V.";
@@ -159,8 +159,8 @@ namespace Timbrado.CFDIS.CartaPorte._30
 
 			CartaPorteTiposFigura _figuraTransporte = new CartaPorteTiposFigura();
 			_figuraTransporte.TipoFigura = "01";
-			_figuraTransporte.RFCFigura = "HELR750528F53";
-			_figuraTransporte.NumLicencia = "40C822392";
+			_figuraTransporte.RFCFigura = "XAXX010101000";
+			_figuraTransporte.NumLicencia = "XXXXXXXXX";
 			_figuraTransporte.NombreFigura = "RENE PRISCILIANO HERNANDEZ LOZANO";
 
 			CartaPorteTiposFiguraDomicilio _domiciliofigura = new CartaPorteTiposFiguraDomicilio();

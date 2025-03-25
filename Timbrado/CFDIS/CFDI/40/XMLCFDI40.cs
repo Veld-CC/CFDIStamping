@@ -4,7 +4,7 @@
 	{
 		private Comprobante _comprobante = new Comprobante();
 		//Para generar certificados
-		private string pathCer = @"C:\MasFerreDyn\PKI\CSD_Sucursal.cer";
+		private string pathCer = @"C:\XXXXX\PKI\CSD_Sucursal.cer";
 
 		public Comprobante GeneraXmlCFDI40Ejemplo()
 		{

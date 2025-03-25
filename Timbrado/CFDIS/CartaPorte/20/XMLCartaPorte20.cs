@@ -122,8 +122,8 @@
 			CartaPorteMercanciasAutotransporteSeguros _seguros = new CartaPorteMercanciasAutotransporteSeguros();
 			_seguros.AseguraCarga = "HDI SEGUROS, S.A DE C.V.";
 			_seguros.AseguraRespCivil = "QUALITAS COMPAÑIA DE SEGUROS, S.A. DE C.V.";
-			_seguros.PolizaCarga = "10-34669";
-			_seguros.PolizaRespCivil = "2020020431";
+			_seguros.PolizaCarga = "10-00000";
+			_seguros.PolizaRespCivil = "0000000000";
 			// aseguradora de medio ambiete en caso de transportar material peligroso
 
 			_autotransporte.Seguros = _seguros;
@@ -145,7 +145,7 @@
 			CartaPorteTiposFigura _figuraTransporte = new CartaPorteTiposFigura();
 			_figuraTransporte.NombreFigura = "RENE PRISCILIANO HERNANDEZ LOZANO";
 			_figuraTransporte.NumLicencia = "40C822392";
-			_figuraTransporte.RFCFigura = "HELR750528F53";
+			_figuraTransporte.RFCFigura = "XAXX010101000";
 			_figuraTransporte.TipoFigura = "01";
 
 			CartaPorteTiposFiguraDomicilio _domiciliofigura = new CartaPorteTiposFiguraDomicilio();
