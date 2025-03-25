@@ -423,7 +423,8 @@ namespace Timbrado.CFDIS
                 throw;
             }
         }
-
+        
+        
         private byte[] GenerateQRCode(string content)
         {
             var qrGenerator = new QRCodeGenerator();
