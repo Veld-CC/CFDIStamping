@@ -1,5 +1,12 @@
 # Librería de Generación de CFDI 4.0 con Timbrado Fiscal (SAT 2025)
 
+## Licencia
+Este proyecto está licenciado bajo Apache License 2.0. Ver [LICENSE](LICENSE) para más detalles.
+
+⚠️ Consideraciones Especiales para CFDI/SAT
+
+"Este software no está afiliado al SAT y los usuarios son responsables de validar el cumplimiento de sus CFDI."
+
 ## 1. Descripción General
 
 Librería desarrollada en C# (.NET) para la generación, timbrado y manejo de Comprobantes Fiscales Digitales por  
